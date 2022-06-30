@@ -1,0 +1,48 @@
+body{
+    background-color: #efefef;
+}
+
+.Bio, .Photo, .Education, .Hobbie, .Contact{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    text-align:center;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.Bio:hover, .Photo:hover, .Education:hover, .Hobbie:hover, .Contact:hover{
+    background-color:cornflowerblue;
+    transform: scale(1.1);
+    
+}
+
+h1{
+    margin-top: 40%;
+}
+
+.Bio{
+    background-color: grey;
+
+}
+
+.Photo{
+    background-color:blueviolet;
+    margin-left: 400px;
+}
+
+.Education{
+    background-color:magenta;
+    margin-left: 402px;
+
+}
+
+.Hobbie{
+    background-color:teal;
+}
+
+.Contact{
+    background-color: coral;
+    margin-left: 400px;
+
+}
